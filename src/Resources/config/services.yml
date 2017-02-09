@@ -1,0 +1,12 @@
+services:
+#    tomekwlod_geocoder.main:
+#        class: TomekWlod\Geocoder\Service\Main
+#        arguments:
+#          - @doctrine_mongodb.odm.default_document_manager
+#          - %phaseii_clinical_trial.baseUrl%
+#          - { base_uri: %phaseii_clinical_trial.baseUrl%, request.options: { timeout: 80, connect_timeout: 80 } }
+    
+    tomekwlod_geocoder.location:
+        class: TomekWlod\Geocoder\Service\Location
+        arguments:
+          - @doctrine_mongodb.odm.default_document_manager

@@ -1,5 +1,10 @@
-<?php namespace TomekWlod\Geocoder;
+<?php 
+
+namespace TomekWlod\Geocoder;
  
-class GeocoderBundle {
- 
+use Symfony\Component\HttpKernel\Bundle\Bundle;
+
+class GeocoderBundle extends Bundle
+{
+    
 }

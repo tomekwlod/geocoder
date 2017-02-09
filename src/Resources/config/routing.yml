@@ -1,0 +1,14 @@
+tomekwlod_geocode:
+    path:      /get
+    defaults:  { _controller: GeocoderBundle:Api:get , _format: 'json'} 
+    methods:  [POST]
+    requirements:
+        _format:  json
+
+#tomekwlod_geocode:
+#    path:      /geocode
+#    defaults:  { _controller: TomekWlod/Geocoder:Api:geocode } 
+#    #, _format: 'json'
+#    methods:  [POST]
+#    requirements:
+#        _format:  json
